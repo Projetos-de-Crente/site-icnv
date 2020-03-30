@@ -4,8 +4,8 @@
   "description": "Repositório referente ao site da ICNV de Magé.",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass --output-style compressed C:/Users/mathe/Desktop/Projetos/GitHub/momanhaes.github.io/css/style.scss > C:/Users/mathe/Desktop/Projetos/GitHub/momanhaes.github.io/style.css",
-    "sass-watch": "node-sass --watch --output-style compressed C:/Users/mathe/Desktop/Projetos/GitHub/momanhaes.github.io/css/style.scss --output C:/Users/mathe/Desktop/Projetos/GitHub/momanhaes.github.io"
+    "sass": "node-sass --output-style compressed C:/Users/mathe/Desktop/Projetos/GitHub/site-icnv/css/style.scss > C:/Users/mathe/Desktop/Projetos/GitHub/site-icnv/style.css",
+    "sass-watch": "node-sass --watch --output-style compressed C:/Users/mathe/Desktop/Projetos/GitHub/site-icnv/css/style.scss --output C:/Users/mathe/Desktop/Projetos/GitHub/site-icnv"
   },
   "repository": {
     "type": "git",
