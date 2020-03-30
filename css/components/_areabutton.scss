@@ -1,0 +1,13 @@
+.area-button {
+  border: 0;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  color: #feffff;
+  background-color: #3f5eac;
+  padding: 1rem 2rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+.area-button:hover {
+  background-color: #4869bc;
+}

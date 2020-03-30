@@ -22,7 +22,7 @@
     text-shadow: 1px 1px 2px #656565;
     text-transform: uppercase;
     position: absolute;
-    width: 100%;
+    width: 90%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -40,12 +40,12 @@
 
 .areatop-bar {
     border-bottom: solid 4px $color-blue;
-    width: 65%;
-    max-width: 6rem;
+    max-width: 7rem;
     margin: 0 auto;
+    height: 2rem;
 
     @include large-and-up {
         border-bottom: solid 5px $color-blue;
-        width: 7rem;
+        max-width: 14rem;
     }
 }
