@@ -1,0 +1,25 @@
+@import "variables.scss";
+
+@mixin small-and-up {
+  @media screen and (min-width: #{$breakpoint-small}) {
+    @content;
+  }
+}
+
+@mixin medium-and-up {
+  @media screen and (min-width: #{$breakpoint-medium}) {
+    @content;
+  }
+}
+
+@mixin large-and-up {
+  @media screen and (min-width: #{$breakpoint-large}) {
+    @content;
+  }
+}
+
+@mixin xlarge-and-up {
+  @media screen and (min-width: #{$breakpoint-xlarge}) {
+    @content;
+  }
+}

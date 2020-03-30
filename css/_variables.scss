@@ -1,0 +1,32 @@
+/** breakpoints */
+$breakpoint-xsmall: 0;
+$breakpoint-small: 576px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 992px;
+$breakpoint-xlarge: 1200px;
+
+/** Colors */
+$color-white: #feffff;
+$color-light-blue: #5c88f7;
+$color-blue: #3f5eac;
+$color-blue-bg: #203057;
+$color-gray: #717171;
+$color-gray-bg: #f1f1f1;
+$color-light-pink: #ffb7b7;
+$color-black: #000;
+$color-light-yellow: #FFFFCC;
+
+$color-border: #eaeaea;
+$color-text: #333;
+
+/** Fonts */
+$font-montserrat: 'Montserrat', sans-serif;
+$font-prompt: 'Prompt', sans-serif;
+
+
+/** Container */
+$container-xs-width: auto;
+$container-sm-width: 540px;
+$container-md-width: 720px;
+$container-lg-width: 960px;
+$container-xl-width: 1140px;

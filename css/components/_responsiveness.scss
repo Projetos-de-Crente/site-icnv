@@ -1,0 +1,15 @@
+.exhibition-desktop {
+    display: none;
+
+    @include large-and-up {
+        display: block;
+    }
+}
+
+.exhibition-mobile {
+    display: block;
+
+    @include large-and-up {
+        display: none;
+    }
+}

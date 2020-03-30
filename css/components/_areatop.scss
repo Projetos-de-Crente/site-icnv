@@ -1,0 +1,51 @@
+.areatop {
+    position: relative;
+    height: 35vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 0.5rem;
+    background-position: center;
+
+    @include small-and-up {
+        height: 60vh;
+    }
+
+    @include large-and-up {
+        height: 65vh;
+    }
+}
+
+.areatop-title {
+    font-family: $font-montserrat;
+    font-size: 1.8rem;
+    color: $color-white;
+    text-shadow: 1px 1px 2px #656565;
+    text-transform: uppercase;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 2rem;
+
+    @include large-and-up {
+        font-size: 3rem;
+        top: 50%;
+    }
+}
+
+.areatop-content {
+    text-align: center;
+}
+
+.areatop-bar {
+    border-bottom: solid 4px $color-blue;
+    width: 65%;
+    max-width: 6rem;
+    margin: 0 auto;
+
+    @include large-and-up {
+        border-bottom: solid 5px $color-blue;
+        width: 7rem;
+    }
+}
