@@ -1,34 +1,60 @@
-*, *:before, *:after {
-    box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
-body, h1, h2, h3, h4, h5, h6,
-ul, ol, li, p, pre, blockquote,
-figure, hr {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
   margin: 0;
   padding: 0;
 }
 
-html, body {
-    font-size: 16px;
-    font-family: $font-montserrat;
-    line-height: 1.25;
-    scroll-behavior: smooth;
-    background-color: #cecece;
+html,
+body {
+  font-size: 16px;
+  font-family: $font-montserrat !important;
+  line-height: 1.25;
+  scroll-behavior: smooth;
+  // background-color: #cecece;
 }
 
 img {
-    max-width: 100%;
-    margin: 0;
-	padding: 0;
-	border: 0;
-    vertical-align: baseline;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
 }
 
 ::selection {
-    background: #D0DEC4;
+  background: #d0dec4;
 }
 
-.text-center { text-align: center; }
-.text-right { text-align: right; }
-.font-weight-bold { font-weight: 700 !important; }
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.font-weight-bold {
+  font-weight: 700 !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: $color-white !important;
+}

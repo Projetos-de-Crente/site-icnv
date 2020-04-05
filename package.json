@@ -24,7 +24,12 @@
   },
   "homepage": "https://github.com/momanhaes/site-icnv#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "jquey": "0.0.1-security",
     "node-sass": "^4.13.1",
+    "popper.js": "^1.16.1",
     "sass": "^1.25.0"
   }
 }
