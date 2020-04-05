@@ -23,7 +23,7 @@
   text-transform: uppercase;
   position: absolute;
   width: 90%;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 2rem;
@@ -70,13 +70,13 @@
 }
 
 .area-title {
-  color: $color-blue;
-  font-size: 2.5rem;
+  color: $color-light-black;
+  font-size: 2rem;
   font-family: $font-montserrat;
   font-weight: 400;
   text-align: center;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   max-width: 90%;
   margin: auto;
   text-transform: uppercase;
@@ -88,4 +88,9 @@
   &.with-subtitle {
     padding-bottom: 1rem;
   }
+
+  @include large-and-up {
+    font-size: 3rem;
+  }
+
 }

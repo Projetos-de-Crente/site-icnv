@@ -14,7 +14,6 @@ h6,
 ul,
 ol,
 li,
-p,
 pre,
 blockquote,
 figure,
@@ -23,13 +22,20 @@ hr {
   padding: 0;
 }
 
+p {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
 html,
 body {
   font-size: 16px;
   font-family: $font-montserrat !important;
   line-height: 1.25;
   scroll-behavior: smooth;
-  // background-color: #cecece;
+  background-color: $color-white !important;
 }
 
 img {
@@ -56,5 +62,6 @@ img {
 
 a:hover {
   text-decoration: none !important;
-  color: $color-white !important;
+  // color: $color-white !important;
+  font-weight: bold;
 }
