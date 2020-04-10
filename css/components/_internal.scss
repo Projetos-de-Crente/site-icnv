@@ -142,3 +142,26 @@
   opacity: 0.4;
   transition: opacity 0.4s ease-out, bottom 0.4s ease, transform 0.2s ease;
 }
+
+.internal-navbar-image {
+  width: 60%;
+  margin-top: 0.2rem;
+  margin-left: -0.4rem;
+
+  @include small-and-up {
+    width: 30%;
+  }
+  @include medium-and-up {
+    width: 30%;
+  }
+  @include large-and-up {
+    width: 30%;
+  }
+  @include xlarge-and-up {
+    width: 30%;
+  }
+}
+
+.internal-carousel-image {
+  width: 100%;
+}
