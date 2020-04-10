@@ -1,15 +1,15 @@
 .exhibition-desktop {
-    display: none;
+  display: none;
 
-    @include large-and-up {
-        display: block;
-    }
+  @include medium-and-up {
+    display: block;
+  }
 }
 
 .exhibition-mobile {
-    display: block;
+  display: block;
 
-    @include large-and-up {
-        display: none;
-    }
+  @include medium-and-up {
+    display: none;
+  }
 }
