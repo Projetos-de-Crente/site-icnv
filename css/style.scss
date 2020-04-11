@@ -1,21 +1,20 @@
+/* Generals */
 @import "mixins";
 @import "reset";
 @import "variables";
 
 /* Layout */
 @import "layout/footer";
-@import "layout/styleguide";
 @import "layout/topmenu";
 
 /* Components */
 @import "components/accordion";
-@import "components/areatop";
-@import "components/areabutton";
+@import "components/area";
 @import "components/accordion";
 @import "components/contactform";
-@import "components/floatupbtn";
 @import "components/internal";
 @import "components/responsiveness";
+@import "components/news";
 
 /* Bootstrap */
 @import "../node_modules/bootstrap/scss/bootstrap";
