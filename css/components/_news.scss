@@ -1,7 +1,6 @@
 // Variables!
-$effect-background: #3085a3;
+$effect-background: $color-blue;
 
-// Setting up blocks
 .hero-grid {
   position: relative;
   float: left;
@@ -9,13 +8,12 @@ $effect-background: #3085a3;
   background: $effect-background;
   cursor: pointer;
 
-  // will need to be changed
   margin-right: 0rem;
   margin-left: 0rem;
   margin-top: 2.5rem;
   margin-top: 1rem;
   max-width: 600px;
-  max-height: 500px;
+  max-height: 600px;
 }
 
 .hero-grid-image {
@@ -28,7 +26,7 @@ $effect-background: #3085a3;
 
 .hero-grid-content {
   padding: 2em;
-  color: #fff;
+  color: $color-white;
   text-transform: uppercase;
   font-size: 1.25em;
   -webkit-backface-visibility: hidden;
@@ -44,7 +42,6 @@ $effect-background: #3085a3;
 }
 
 .hero-grid-link {
-  // make the link cover everything but show nothing
   position: absolute;
   top: 0;
   left: 0;
@@ -63,6 +60,7 @@ $effect-background: #3085a3;
   margin: 0;
   padding: 0.25em 0;
   line-height: 1;
+  font-size: 1.8rem;
 }
 
 .hero-grid-title span {
@@ -73,8 +71,8 @@ $effect-background: #3085a3;
   display: inline-block;
   font-size: 0.5em;
   padding: 0.5em;
-  background: #fff;
-  color: #000;
+  background: $color-white;
+  color: $color-black;
 }
 
 .hero-grid h2,
@@ -88,8 +86,6 @@ $effect-background: #3085a3;
   height: 2.25em;
   overflow: hidden;
 }
-
-// effect start
 
 .effect-image {
   max-width: none;
@@ -114,7 +110,7 @@ $effect-background: #3085a3;
 
 .effect-text {
   color: rgba(255, 255, 255, 0.8);
-  opacity: 0;
+  opacity: 1;
   -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
   transition: opacity 0.2s, transform 0.35s;
 }
