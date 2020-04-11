@@ -13,6 +13,16 @@
   @include large-and-up {
     height: 85vh;
   }
+
+  &.sobre {
+    @include small-and-up {
+      height: 60vh;
+    }
+
+    @include large-and-up {
+      height: 30vh;
+    }
+  }
 }
 
 .areatop-title {
@@ -32,6 +42,10 @@
     font-size: 3rem;
     top: 50%;
   }
+
+  &.internal {
+    margin-top: 0;
+  }
 }
 
 .areatop-content {
@@ -47,6 +61,14 @@
   @include large-and-up {
     border-bottom: solid 5px $color-blue;
     max-width: 14rem;
+  }
+
+  &.pr {
+    @include large-and-up {
+      border-bottom: solid 5px $color-blue;
+      max-width: 6rem;
+      height: 0rem;
+    }
   }
 }
 
@@ -91,6 +113,10 @@
 
   @include large-and-up {
     font-size: 3rem;
+  }
+
+  &.internal {
+    font-size: 2rem;
   }
 }
 
