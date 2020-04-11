@@ -1,75 +1,77 @@
 .contactform {
-    background-color: #1d2c50;
-    max-width: 800px;
-    margin: auto;
-    color: $color-white;
-    padding: 1rem 2rem 2rem;
+  background-color: #282828;
+  max-width: 100%;
+  margin: auto;
+  color: $color-white;
+  padding: 1rem 2rem 2rem;
+  border-radius: 10px;
 }
 
 .contactform-label {
-    display: block;
-    padding: 0.4rem 0;
-    font-size: 1.2rem;
-    margin-top: 1rem;
+  display: block;
+  padding: 0.4rem 0;
+  font-size: 1.2rem;
+  margin-top: 1rem;
 }
 
 .contactform-input {
-    display: block;
-    width: 100%;
-    border: 0;
-    font-size: 1.2rem;
-    padding: 0.8rem;
+  display: block;
+  width: 100%;
+  border: 0;
+  font-size: 1.2rem;
+  padding: 0.8rem;
 
-    &:disabled {
-        background-color: #cbcbcb;
-    }
+  &:disabled {
+    background-color: #cbcbcb;
+  }
 }
 
 .contactform-textarea {
-    display: block;
-    width: 100%;
-    border: 0;
-    font-size: 1.2rem;
-    padding: 0.8rem;
-    resize: none;
+  display: block;
+  width: 100%;
+  border: 0;
+  font-size: 1.2rem;
+  padding: 0.8rem;
+  resize: none;
 
-    &:disabled {
-        background-color: #cbcbcb;
-    }
+  &:disabled {
+    background-color: #cbcbcb;
+  }
 }
 
 .contactform-submit {
-    border: 0;
-    cursor: pointer;
-    font-family: $font-montserrat;
-    font-size: 0.9rem;
-    color: $color-white;
-    background-color: $color-blue;
-    padding: 0.93rem 2rem;
-    transition: background-color 0.2s, color 0.2s;
+  border: 0;
+  cursor: pointer;
+  font-family: $font-montserrat;
+  font-size: 0.9rem;
+  color: $color-white;
+  background-color: $color-black;
+  padding: 0.93rem 2rem;
+  transition: background-color 0.2s, color 0.2s;
 
-    &:hover {
-        background-color: lighten($color-blue, 5%);
-    }
+  &:hover {
+    background-color: lighten($color-white, 5%);
+    color: $color-black;
+  }
 }
 
 label#idLabelFile:after {
-    display: block;
-    width: 100%;
-    content: "Nenhum arquivo selecionado";
-    text-align: left;
-    padding: 0.8rem;
-    border: solid 0.5px;
-    color: $color-gray;
-    font-size: 1rem;
+  display: block;
+  width: 100%;
+  content: "Nenhum arquivo selecionado";
+  text-align: left;
+  padding: 0.8rem;
+  border: solid 0.5px;
+  color: $color-gray;
+  font-size: 1rem;
 }
 
 label#idLabelFile:hover:after {
-    background: $color-gray-bg;
-    cursor: pointer;
+  background: $color-gray-bg;
+  cursor: pointer;
 }
 
 label#idLabelFile input#idInputFile {
-    width: 0px;
-    height: 0px;
+  width: 0px;
+  height: 0px;
 }
