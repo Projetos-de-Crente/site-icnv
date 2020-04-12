@@ -152,7 +152,9 @@
   width: 50%;
   margin-bottom: 0.9rem;
 
-  @include from-medium-large {
-    width: 65%;
+  @include medium-and-up {
+    width: 60%;
+    margin-left: 2rem;
+    margin-bottom: 0rem;
   }
 }
