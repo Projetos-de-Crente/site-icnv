@@ -1,5 +1,5 @@
 .contactform {
-  background-color: #282828;
+  background-color: $color-blue-bg;
   max-width: 800px;
   margin: auto;
   color: $color-white;
@@ -45,13 +45,13 @@
   font-family: $font-montserrat;
   font-size: 0.9rem;
   color: $color-white;
-  background-color: $color-black;
+  background-color: $color-blue;
   padding: 0.93rem 2rem;
   transition: background-color 0.2s, color 0.2s;
 
   &:hover {
-    background-color: lighten($color-white, 5%);
-    color: $color-black;
+    background-color: lighten($color-blue, 5%);
+    color: $color-white;
   }
 }
 

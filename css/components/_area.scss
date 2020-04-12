@@ -11,17 +11,7 @@
   }
 
   @include large-and-up {
-    height: 85vh;
-  }
-
-  &.sobre {
-    @include small-and-up {
-      height: 60vh;
-    }
-
-    @include large-and-up {
-      height: 30vh;
-    }
+    height: 90vh;
   }
 }
 
