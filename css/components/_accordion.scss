@@ -9,7 +9,7 @@ h4 {
   cursor: pointer;
 }
 .accordion h1 {
-  padding: 15px 20px;
+  padding: 20px 20px;
   background-color: $color-light-black;
   font-size: 1.3rem;
   font-weight: normal;
@@ -37,9 +37,9 @@ h4 {
   display: none;
 }
 .accordion h2 {
-  padding: 15px 20px;
+  padding: 20px 20px;
   background-color: $color-gray;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: $color-black;
   margin-bottom: 0rem;
 }
@@ -47,9 +47,9 @@ h4 {
   background-color: $color-light-gray;
 }
 .accordion h3 {
-  padding: 15px 20px;
+  padding: 20px 20px;
   background-color: $color-blue;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   color: $color-white;
   margin-bottom: 0rem;
 }
@@ -57,9 +57,9 @@ h4 {
   background-color: $color-light-blue;
 }
 .accordion h4 {
-  padding: 15px 20px;
+  padding: 20px 20px;
   background-color: $color-red;
-  font-size: 0.9rem;
+  font-size: 1.3rem;
   color: $color-white;
   margin-bottom: 0rem;
 }
@@ -67,9 +67,10 @@ h4 {
   background-color: $color-red-tomato;
 }
 .accordion p {
-  padding: 15px 20px;
-  background-color: $color-white;
-  font-size: 0.8rem;
+  padding: 20px 20px;
+  background-color: $color-gray-bg;
+  font-size: 1rem;
   color: $color-black;
   line-height: 1.3rem;
+  margin-bottom: 0rem;
 }

@@ -21,7 +21,7 @@
   font-size: 1.5rem;
 
   @include medium-and-up {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -44,7 +44,6 @@
   list-style: none;
   height: inherit;
   line-height: inherit;
-  padding: 0 50px;
 }
 .navbar ul li {
   display: inline-block;
@@ -53,11 +52,11 @@
   display: block;
   text-align: center;
   min-width: 120px;
-  padding: 0 30px;
+  padding: 0 15px;
 }
 .navbar ul li a:hover {
   color: $color-light-blue;
-  // border-bottom: solid 1px $color-blue;
+  // border-bottom: solid 2px $color-light-blue;
 }
 
 .navbar .navbar-toggler {
