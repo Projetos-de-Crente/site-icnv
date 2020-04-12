@@ -149,5 +149,10 @@
 }
 
 .internal-navbar-image {
-  width: 65%;
+  width: 50%;
+  margin-bottom: 0.9rem;
+
+  @include from-medium-large {
+    width: 65%;
+  }
 }
