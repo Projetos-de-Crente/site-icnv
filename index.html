@@ -293,22 +293,27 @@
             <h2 class="area-title mb-3" data-aos="fade-down">Fale conosco</h2>
 
             <div class="area padding-bottom area--contact" id="contato" data-aos="fade-down">
-                <form action="" class="contactform mb-4" id="contactform">
+                <form action="https://formspree.io/xrgarbkq" method="POST" class="contactform mb-4" id="contactform">
+                    <!-- <form action="https://getform.io/f/d0be2e0e-e0e7-4288-b245-3d88c4c7a6b4" method="POST"
+                        class="contactform mb-4" id="contactform"> -->
                     <div class="row">
                         <div class="col-12 col-sm-6">
-                            <label class="contactform-label">Nome</label>
-                            <input type="text" required name="nome" class="contactform-input" autocomplete="off" />
+                            <label class="contactform-label">Seu nome</label>
+                            <input type="text" placeholder="Fulano da Silva" required name="Nome"
+                                class="contactform-input" autocomplete="off" />
                         </div>
                         <div class="col-12 col-sm-6">
-                            <label class="contactform-label">E-mail</label>
-                            <input type="email" required name="email" class="contactform-input" autocomplete="off" />
+                            <label class="contactform-label">Seu e-mail</label>
+                            <input type="email" placeholder="fulano@email.com" required name="E-mail"
+                                class="contactform-input" autocomplete="off" />
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-12">
-                            <label class="contactform-label">Mensagem</label>
-                            <textarea class="contactform-textarea" rows="6" name="mensagem" required></textarea>
+                            <label class="contactform-label">Sua mensagem</label>
+                            <textarea class="contactform-textarea" placeholder="Digite aqui o que quiser :)" rows="6"
+                                name="Mensagem" required></textarea>
                         </div>
                     </div>
 
