@@ -11,16 +11,12 @@ h4 {
 }
 
 .accordion h1 {
-  padding: 20px 20px;
+  padding: 15px 15px;
   background-color: $color-blue-bg;
   font-size: 1.3rem;
   font-weight: normal;
   color: $color-white;
   margin-bottom: 0rem;
-
-  @include medium-and-up {
-    font-size: 1.5rem;
-  }
 }
 
 .accordion h1:hover {
@@ -45,9 +41,9 @@ h4 {
 }
 
 .accordion h2 {
-  padding: 20px 20px;
+  padding: 15px 15px;
   background-color: $color-light-black;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: $color-white;
   margin-bottom: 0rem;
 }
