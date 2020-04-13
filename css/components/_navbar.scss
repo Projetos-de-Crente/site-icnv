@@ -39,7 +39,7 @@
   min-width: 120px;
   padding: 0 15px;
 
-  transition: opacity 0.4s, transform 0.2s;
+  transition: transform 0.2s;
   transform: scale(1);
   &:hover {
     color: lighten($color-text-navbar, 20%);
