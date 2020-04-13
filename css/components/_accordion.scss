@@ -2,12 +2,14 @@
   width: 100%;
   margin: 20px auto;
 }
+
 .accordion h1,
 h2,
 h3,
 h4 {
   cursor: pointer;
 }
+
 .accordion h1 {
   padding: 20px 20px;
   background-color: $color-light-black;
@@ -20,22 +22,28 @@ h4 {
     font-size: 1.5rem;
   }
 }
+
 .accordion h1:hover {
   color: $color-gray;
 }
+
 .accordion h1:first-child {
   border-radius: 10px 10px 0 0;
 }
+
 .accordion h1:last-of-type {
   border-radius: 0 0 10px 10px;
 }
+
 .accordion h1:not(:last-of-type) {
   border-bottom: 1px solid $color-gray;
 }
+
 .accordion div,
 .accordion p {
   display: none;
 }
+
 .accordion h2 {
   padding: 20px 20px;
   background-color: $color-gray;
@@ -43,9 +51,11 @@ h4 {
   color: $color-black;
   margin-bottom: 0rem;
 }
+
 .accordion h2:hover {
   background-color: $color-light-gray;
 }
+
 .accordion h3 {
   padding: 20px 20px;
   background-color: $color-blue;
@@ -53,9 +63,11 @@ h4 {
   color: $color-white;
   margin-bottom: 0rem;
 }
+
 .accordion h3:hover {
   background-color: $color-light-blue;
 }
+
 .accordion h4 {
   padding: 20px 20px;
   background-color: $color-red;
@@ -63,9 +75,11 @@ h4 {
   color: $color-white;
   margin-bottom: 0rem;
 }
+
 .accordion h4:hover {
   background-color: $color-red-tomato;
 }
+
 .accordion p {
   padding: 20px 20px;
   background-color: $color-gray-bg;
