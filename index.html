@@ -5,10 +5,10 @@
     <link href="https://fonts.googleapis.com/css?family=Prompt:700&display=block" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet" />
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link href="style.css" rel="stylesheet" />
+    <link href="node_modules/aos/dist/aos.css" rel="stylesheet" />
     <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-    <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet" />
+    <link href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet" />
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -18,22 +18,19 @@
 </head>
 
 <body>
-
-    <body>
-        <nav class="navbar" data-aos="fade-down">
-            <a href="#"><img src="img/logos/casinhas_preto.png" class="internal-navbar-image"></a>
-            <ul>
-                <li><a href="#novidades">Novidades</a></li>
-                <li><a href="#agenda">Nossa Agenda</a></li>
-                <li><a href="#ministerios">Ministérios</a></li>
-                <li><a href="#mensagens">Mensagens</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-            <button class="navbar-toggler">
-                <span></span>
-            </button>
-        </nav>
-    </body>
+    <nav class="navbar" data-aos="fade-down">
+        <a href="#"><img src="img/logos/casinhas_preto.png" class="internal-navbar-image"></a>
+        <ul>
+            <li><a href="#novidades">Novidades</a></li>
+            <li><a href="#agenda">Nossa Agenda</a></li>
+            <li><a href="#ministerios">Ministérios</a></li>
+            <li><a href="#mensagens">Mensagens</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+        <button class="navbar-toggler">
+            <span></span>
+        </button>
+    </nav>
 
     <div class="areatop" data-aos="fade-up" style="background-image: url('img/wallpapers/cross.jfif');">
         <div class="areatop-content">
@@ -97,7 +94,7 @@
                 busca
                 alcançar dia a dia este objetivo.</p>
             </p>
-            <p><a href="sobre.html" data-aos="fade-right">Clique para ver mais detalhes.</a></p>
+            <p class="text-center"><a href="sobre.html" data-aos="fade-right">Clique para ver mais detalhes.</a></p>
         </div>
     </div>
 
@@ -216,31 +213,33 @@
             </div>
         </div>
         <div class="container">
-            <p><a href="novidades.html" data-aos="fade-right">Clique para ver mais detalhes.</a></p>
+            <p class="text-center"><a href="novidades.html" data-aos="fade-right">Clique para ver mais detalhes.</a></p>
         </div>
     </div>
+
 
     <div class="area p-3 internal-background agenda" id="agenda">
         <div class="container">
             <a href="agenda.html">
                 <h2 class="area-title" data-aos="fade-down">AGENDA</h2>
             </a>
-            <p data-aos="fade-right">
+            <p class="text-justify" data-aos="fade-right">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                 and
                 scrambled it to make a type specimen book.
             </p>
-            <p><a href="agenda.html" data-aos="fade-right">Clique para ver mais detalhes.</a></p>
+            <p class="text-center"><a href="agenda.html" data-aos="fade-right">Clique para ver mais detalhes.</a></p>
         </div>
     </div>
 
-    <div class="area p-3 internal-background ministerios" id="ministerios">
+
+    <div class="area p-3 internal-background ministerios" id="ministerios" data-aos="fade-down">
         <div class="container">
             <a href="ministerios.html">
                 <h2 class="area-title text-white" data-aos="fade-down">MINISTÉRIOS</h2>
             </a>
-            <p class="text-white mb-5" data-aos="fade-right">
+            <p class="text-justify text-white mb-5" data-aos="fade-right">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                 and
@@ -250,43 +249,44 @@
 
             <a href="ministerios.html">
                 <div class="row mb-3 mt-3">
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-3" data-aos="fade-right">
-                        <img src="img/logos/ministerios/ga.png" class="internal-image">
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-3">
+                        <img src="img/logos/ministerios/ga.png" class="internal-image ministerios">
                     </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-5" data-aos="fade-right">
-                        <img src="img/logos/ministerios/logo_ebd3.png" class="internal-image">
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-5">
+                        <img src="img/logos/ministerios/logo_ebd3.png" class="internal-image ministerios ebd">
                     </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-5" data-aos="fade-left">
-                        <img src="img/logos/ministerios/logo_igp.png" class="internal-image">
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-5">
+                        <img src="img/logos/ministerios/logo_igp.png" class="internal-image ministerios">
                     </div>
-                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-3" data-aos="fade-left">
-                        <img src="img/logos/ministerios/casais_logo.png" class="internal-image">
+                    <div class="col-12 col-sm-12 col-md-3 col-lg-3 mb-3">
+                        <img src="img/logos/ministerios/casais_logo.png" class="internal-image ministerios">
                     </div>
                 </div>
             </a>
 
         </div>
         <div class="container">
-            <p><a class="text-white" href="ministerios.html" data-aos="fade-right">Clique para ver mais detalhes.</a>
+            <p class="text-center"><a class="text-white" href="ministerios.html" data-aos="fade-right">Clique para ver
+                    mais detalhes.</a>
             </p>
         </div>
     </div>
+
 
     <div class="area p-3 internal-background mensagens" id="mensagens">
         <div class="container">
             <a href="mensagens.html">
                 <h2 class="area-title" data-aos="fade-down">MENSAGENS</h2>
             </a>
-            <p data-aos="fade-right">
+            <p class="text-justify" data-aos="fade-right">
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
                 and
                 scrambled it to make a type specimen book.
             </p>
-            <p><a href="mensagens.html" data-aos="fade-right">Clique para ver mais detalhes.</a></p>
+            <p class="text-center"><a href="mensagens.html" data-aos="fade-right">Clique para ver mais detalhes.</a></p>
         </div>
     </div>
-
 
     <div class="area p-3 internal-background contato" id="contato">
         <div class="container">
@@ -384,9 +384,7 @@
         </div>
     </footer>
 
-    <!-- <script src="node_modules/jquery/dist/jquery.slim.js"></script>
-    <script src="node_modules/popper.js/dist/popper.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script> -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
