@@ -12,8 +12,10 @@
   height: 60px;
   position: relative !important;
 
-  @media (min-width: 1111px) {
-    position: fixed !important;
+  &.home {
+    @media (min-width: 1111px) {
+      position: fixed !important;
+    }
   }
 }
 
