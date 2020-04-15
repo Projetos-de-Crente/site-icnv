@@ -1,6 +1,6 @@
 .areatop {
   position: relative;
-  height: 60vh;
+  height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 0.5rem;
@@ -11,7 +11,7 @@
   }
 
   @include large-and-up {
-    height: 90vh;
+    height: 99vh;
   }
 }
 
