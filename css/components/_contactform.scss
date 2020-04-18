@@ -53,6 +53,10 @@
     background-color: lighten($color-blue, 5%);
     color: $color-white;
   }
+
+  &.novidades {
+    font-size: 1rem;
+  }
 }
 
 label#idLabelFile:after {
