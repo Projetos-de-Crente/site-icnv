@@ -58,98 +58,99 @@
       border-bottom: solid 3px $color-blue;
       max-width: 5rem;
       height: 0rem;
-  }
-}
-
-.area-agenda-bar {
-  @media (min-width: 768px) {
-    border-right: solid 2px $color-light-gray;
-  }
-  @media (max-width: 767px) {
-    border-bottom: solid 2px $color-light-gray;
-  }
-}
-
-.area-title {
-  color: $color-light-black;
-  font-size: 2rem;
-  font-family: $font-montserrat;
-  font-weight: 400;
-  text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  max-width: 90%;
-  margin: auto;
-  text-transform: uppercase;
-
-  .area--contact & {
-    color: $color-white;
+    }
   }
 
-  @include large-and-up {
-    font-size: 3rem;
+  .area-agenda-bar {
+    @media (min-width: 768px) {
+      border-right: solid 2px $color-light-gray;
+    }
+    @media (max-width: 767px) {
+      border-bottom: solid 2px $color-light-gray;
+    }
   }
 
-  &.internal {
+  .area-title {
+    color: $color-light-black;
     font-size: 2rem;
-    margin-top: 2rem;
+    font-family: $font-montserrat;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 90%;
+    margin: auto;
+    text-transform: uppercase;
+
+    .area--contact & {
+      color: $color-white;
+    }
+
+    @include large-and-up {
+      font-size: 3rem;
+    }
+
+    &.internal {
+      font-size: 2rem;
+      margin-top: 2rem;
+    }
+
+    &.lideranca {
+      font-size: 1.5rem;
+    }
   }
 
-  &.lideranca {
-    font-size: 1.5rem;
-  }
-}
+  .area-title-agenda {
+    color: $color-light-black;
+    font-size: 1.4rem;
+    font-family: $font-montserrat;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 1rem;
+    max-width: 90%;
+    margin: auto;
+    text-transform: uppercase;
 
-.area-title-agenda {
-  color: $color-light-black;
-  font-size: 1.4rem;
-  font-family: $font-montserrat;
-  font-weight: 400;
-  text-align: center;
-  padding-top: 1rem;
-  max-width: 90%;
-  margin: auto;
-  text-transform: uppercase;
-
-  @media (min-width: 768px) and (max-width: 1199px) {
-    font-size: 1rem;
-  }
-}
-
-.area-subtitle-agenda {
-  color: $color-light-black;
-  font-size: 1.2rem;
-  font-family: $font-montserrat;
-  font-weight: 400;
-  text-align: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  max-width: 90%;
-  margin: auto;
-
-  &.hora {
-    padding-top: 0rem;
+    @media (min-width: 768px) and (max-width: 1199px) {
+      font-size: 1rem;
+    }
   }
 
-  @media (min-width: 768px) and (max-width: 1199px) {
-    font-size: 1rem;
+  .area-subtitle-agenda {
+    color: $color-light-black;
+    font-size: 1.2rem;
+    font-family: $font-montserrat;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 90%;
+    margin: auto;
+
+    &.hora {
+      padding-top: 0rem;
+    }
+
+    @media (min-width: 768px) and (max-width: 1199px) {
+      font-size: 1rem;
+    }
   }
-}
 
-.area {
-  display: block;
-}
+  .area {
+    display: block;
+  }
 
-.area-button {
-  border: 0;
-  cursor: pointer;
-  font-size: 1.2rem;
-  font-family: "Montserrat", sans-serif;
-  color: #feffff;
-  background-color: #3f5eac;
-  padding: 1rem 2rem;
-  transition: background-color 0.2s, color 0.2s;
-}
-.area-button:hover {
-  background-color: #4869bc;
+  .area-button {
+    border: 0;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    color: #feffff;
+    background-color: #3f5eac;
+    padding: 1rem 2rem;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  .area-button:hover {
+    background-color: #4869bc;
+  }
 }
