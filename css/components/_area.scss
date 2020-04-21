@@ -55,10 +55,9 @@
 
   &.lideranca {
     @include large-and-up {
-      border-bottom: solid 5px $color-blue;
-      max-width: 6rem;
+      border-bottom: solid 3px $color-blue;
+      max-width: 5rem;
       height: 0rem;
-    }
   }
 }
 
