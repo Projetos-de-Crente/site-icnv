@@ -62,6 +62,15 @@
   }
 }
 
+.area-agenda-bar {
+  @media (min-width: 768px) {
+    border-right: solid 2px $color-light-gray;
+  }
+  @media (max-width: 767px) {
+    border-bottom: solid 2px $color-light-gray;
+  }
+}
+
 .area-title {
   color: $color-light-black;
   font-size: 2rem;
@@ -78,10 +87,6 @@
     color: $color-white;
   }
 
-  &.with-subtitle {
-    padding-bottom: 1rem;
-  }
-
   @include large-and-up {
     font-size: 3rem;
   }
@@ -89,6 +94,38 @@
   &.internal {
     font-size: 2rem;
     margin-top: 2rem;
+  }
+}
+
+.area-title-agenda {
+  color: $color-light-black;
+  font-size: 1.4rem;
+  font-family: $font-montserrat;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 1rem;
+  max-width: 90%;
+  margin: auto;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    font-size: 1rem;
+  }
+}
+
+.area-subtitle-agenda {
+  color: $color-light-black;
+  font-size: 1.2rem;
+  font-family: $font-montserrat;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 90%;
+  margin: auto;
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    font-size: 1rem;
   }
 }
 

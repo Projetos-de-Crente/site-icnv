@@ -13,3 +13,19 @@
     display: none;
   }
 }
+
+.exhibition-mobile-sobre {
+  display: block;
+
+  @include large-and-up {
+    display: none;
+  }
+}
+
+.exhibition-desktop-sobre {
+  display: none;
+
+  @include large-and-up {
+    display: block;
+  }
+}
