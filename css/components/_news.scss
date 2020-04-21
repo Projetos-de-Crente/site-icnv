@@ -61,6 +61,10 @@ $effect-background: $color-blue;
   padding: 0.25em 0;
   line-height: 1;
   font-size: 1.8rem;
+
+  @media (max-width: 1199px) {
+    font-size: 1rem;
+  }
 }
 
 .hero-grid-title span {
@@ -73,6 +77,10 @@ $effect-background: $color-blue;
   padding: 0.5em;
   background: $color-white;
   color: $color-black;
+
+  @media (max-width: 1199px) {
+    display: none;
+  }
 }
 
 .hero-grid h2,
@@ -85,6 +93,10 @@ $effect-background: $color-blue;
   font-size: 68.5%;
   height: 2.25em;
   overflow: hidden;
+
+  @media (max-width: 1199px) {
+    font-size: 42.5%;
+  }
 }
 
 .effect-image {
