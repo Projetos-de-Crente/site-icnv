@@ -24,7 +24,7 @@
   color: $color-text-navbar;
   font-size: 1.5rem;
 
-  @media (min-width: 1110px) {
+  @media (min-width: 1111px) {
     font-size: 1rem;
   }
 }
@@ -71,7 +71,7 @@
   }
 }
 
-@media (max-width: 1110px) {
+@media (max-width: 1111px) {
   .navbar {
     padding: 0;
   }
