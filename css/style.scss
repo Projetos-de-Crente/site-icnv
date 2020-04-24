@@ -8,6 +8,7 @@
 @import "layout/topmenu";
 
 /* Components */
+@import "components/agenda";
 @import "components/accordion";
 @import "components/area";
 @import "components/accordion";
@@ -17,7 +18,6 @@
 @import "components/responsiveness";
 @import "components/navbar";
 @import "components/news";
-@import "components/newscard";
 
 /* Bootstrap */
 @import "../node_modules/bootstrap/scss/bootstrap";
