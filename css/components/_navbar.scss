@@ -12,7 +12,7 @@
   height: 60px;
   position: relative !important;
 
-  &.home {
+  &.fixed {
     @media (min-width: 1111px) {
       position: fixed !important;
     }
