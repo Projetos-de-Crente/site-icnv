@@ -22,7 +22,7 @@
   padding: 0.8rem;
 
   &:disabled {
-    background-color: #cbcbcb;
+    background-color: $color-disabled;
   }
 }
 
@@ -35,7 +35,7 @@
   resize: none;
 
   &:disabled {
-    background-color: #cbcbcb;
+    background-color: $color-disabled;
   }
 }
 

@@ -1,11 +1,8 @@
-// Variables!
-$effect-background: $color-blue;
-
 .hero-grid {
   position: relative;
   float: left;
   overflow: hidden;
-  background: $effect-background;
+  background: $color-blue;
   cursor: pointer;
 
   margin-right: 0rem;

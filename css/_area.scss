@@ -1,0 +1,160 @@
+.area {
+  display: block;
+}
+
+.area-title {
+  color: $color-light-black;
+  font-size: 2rem;
+  font-family: $font-montserrat;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 90%;
+  margin: auto;
+  text-transform: uppercase;
+
+  .area-contact & {
+    color: $color-white;
+  }
+
+  @include large-and-up {
+    font-size: 3rem;
+  }
+
+  &.internal {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+
+  &.lideranca {
+    font-size: 1.5rem;
+  }
+}
+
+.area-title-agenda {
+  color: $color-light-black;
+  font-size: 1.4rem;
+  font-family: $font-montserrat;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 1rem;
+  max-width: 90%;
+  margin: auto;
+  text-transform: uppercase;
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    font-size: 1rem;
+  }
+}
+
+.area-subtitle-agenda {
+  color: $color-light-black;
+  font-size: 1.2rem;
+  font-family: $font-montserrat;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  max-width: 90%;
+  margin: auto;
+
+  &.hora {
+    padding-top: 0rem;
+  }
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    font-size: 1rem;
+  }
+}
+
+.area-button {
+  border: 0;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-family: $font-montserrat;
+  color: #feffff;
+  background-color: $color-blue;
+  padding: 1rem 2rem;
+  transition: background-color 0.2s, color 0.2s;
+}
+.area-button:hover {
+  background-color: $color-blue-hover;
+}
+
+.area-center {
+  align-items: center !important;
+}
+
+.areatop {
+  position: relative;
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 0.5rem;
+  background-position: center;
+
+  @include small-and-up {
+    height: 60vh;
+  }
+
+  @include large-and-up {
+    height: 99vh;
+  }
+}
+
+.areatop-title {
+  font-family: $font-montserrat;
+  font-size: 1.8rem;
+  color: $color-white;
+  text-shadow: 1px 1px 2px #656565;
+  text-transform: uppercase;
+  position: absolute;
+  width: 90%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 2rem;
+
+  @include large-and-up {
+    font-size: 3rem;
+    top: 50%;
+  }
+
+  &.internal {
+    margin-top: 0;
+  }
+}
+
+.areatop-content {
+  text-align: center;
+}
+
+.areatop-bar {
+  border-bottom: solid 4px $color-blue;
+  max-width: 7rem;
+  margin: 0 auto;
+  height: 2rem;
+
+  @include large-and-up {
+    border-bottom: solid 5px $color-blue;
+    max-width: 14rem;
+  }
+
+  &.lideranca {
+    @include large-and-up {
+      border-bottom: solid 3px $color-blue;
+      max-width: 5rem;
+      height: 0rem;
+    }
+  }
+}
+
+.area-agenda-bar {
+  @media (min-width: 768px) {
+    border-right: solid 2px $color-light-gray;
+  }
+  @media (max-width: 767px) {
+    border-bottom: solid 2px $color-light-gray;
+  }
+}

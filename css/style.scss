@@ -1,22 +1,16 @@
-/* Generals */
+@import "accordion";
+@import "area";
+@import "backtotop";
+@import "card";
+@import "contactform";
+@import "footer";
+@import "internal";
 @import "mixins";
+@import "navbar";
+@import "news";
 @import "reset";
+@import "responsiveness";
 @import "variables";
-
-/* Layout */
-@import "layout/footer";
-@import "layout/topmenu";
-
-/* Components */
-@import "components/accordion";
-@import "components/area";
-@import "components/accordion";
-@import "components/card";
-@import "components/contactform";
-@import "components/internal";
-@import "components/responsiveness";
-@import "components/navbar";
-@import "components/news";
 
 /* Bootstrap */
 @import "../node_modules/bootstrap/scss/bootstrap";
