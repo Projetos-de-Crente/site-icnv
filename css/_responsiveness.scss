@@ -31,3 +31,11 @@
     display: block;
   }
 }
+
+.exhibition-desktop-fixed {
+  display: none;
+
+  @media (min-width: 1111px) {
+    display: block;
+  }
+}
