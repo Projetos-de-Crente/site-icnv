@@ -16,7 +16,7 @@ $(".accordion").click(function (e) {
     $(allAtDepth).slideUp("fast");
 
     subItem.slideToggle("fast", function () {
-      $(".accordion :visible:last").css("border-radius", "0 0 10px 10px");
+      $(".accordion :visible:last");
     });
     $(target).css({
       "border-bottom-right-radius": "0",
