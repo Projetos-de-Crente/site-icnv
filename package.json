@@ -32,6 +32,7 @@
     "jquey": "0.0.1-security",
     "node-sass": "^4.13.1",
     "popper.js": "^1.16.1",
-    "sass": "^1.25.0"
+    "sass": "^1.25.0",
+    "sweetalert2": "^9.10.12"
   }
 }
