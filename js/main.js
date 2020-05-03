@@ -37,7 +37,7 @@ function igp() {
     
     <p style="line-height: 1.5rem;">Por favor, cuidado! Vigie do que seu filho está se alimentando.</p>  
   
-    <p style="line-height: 1.5rem;">Sugerimos um aplicativo que conta histórias bíblicas e tem atividades. Clique no link abaixo para acessar <i class="fa fa-hand-o-down"></i></p> 
+    <p style="line-height: 1.5rem;">Sugerimos um aplicativo que conta histórias bíblicas e tem atividades. Clique em um dos links abaixo para acessar <i class="fa fa-hand-o-down"></i></p> 
   
     <p style="line-height: 1.5rem;">
     <a href="https://apps.apple.com/br/app/app-dab%C3%ADblia-para-crian%C3%A7as/id668692393"><i class="fa fa-apple mr-1"></i> App da Bíblia para Crianças da Life.Church para iOS</a></p>
