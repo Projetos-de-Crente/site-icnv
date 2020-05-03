@@ -9,6 +9,7 @@
     <link href="css/aos.css" rel="stylesheet" />
     <link href="css/bootstrap.css" rel="stylesheet" />
     <link href="css/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="node_modules/sweetalert2/dist/sweetalert2.min.css" rel="stylesheet" />
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -85,7 +86,7 @@
                         </div>
                         <div class="back">
                             <h4 class="text-left">Canal ICNV <br> Magé</h4>
-                            <p>Siga nosso canal no YouTube.</p>
+                            <p>Se inscreva no nosso canal no YouTube.</p>
                             <div style="margin-top: 2rem;">
                                 <a href="https://youtube.com/icnvmage/" target="_blank" target="_blank"
                                     class="contactform-submit novidades"><i class="fa fa-youtube mr-2"></i>
@@ -189,9 +190,11 @@
                             <h4 class="text-left">Aulas <br> EBD Online</h4>
                             <p>Procure seu professor e se informe sobre como sua turma está se reunindo.</p>
                             <div style="margin-top: 2rem;">
-                                <a href="ministerios.html" target="_blank" class="contactform-submit novidades"><i
-                                        class="fa fa-book mr-2"></i>
-                                    Acessar</a>
+                                <div style="margin-top: 2rem;">
+                                    <a class="contactform-submit novidades" onclick="ebd()"><i
+                                            class="fa fa-book mr-2"></i>
+                                        Saber mais</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -207,9 +210,8 @@
                             <p>Não vamos deixar de cuidar das crianças. Se informe para saber como
                                 proceder nesse período.</p>
                             <div style="margin-top: 2rem;">
-                                <a href="ministerios.html" target="_blank" class="contactform-submit novidades"><i
-                                        class="fa fa-book mr-2"></i>
-                                    Acessar</a>
+                                <a class="contactform-submit novidades" onclick="igp()"><i class="fa fa-book mr-2"></i>
+                                    Saber mais</a>
                             </div>
                         </div>
                     </div>
@@ -359,6 +361,7 @@
             once: true
         });
     </script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/accordion.js"></script>
     <script src="js/navbar.js"></script>
