@@ -100,19 +100,19 @@
 
 .effect-image {
   max-width: none;
-  width: -webkit-calc(100% + 50px);
-  width: calc(100% + 50px);
+  width: 100%;
   opacity: 0.2;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  -webkit-transform: translate3d(-40px, 0, 0);
-  transform: translate3d(-40px, 0, 0);
+  transform: scale(1);
+  // -webkit-transform: translate3d(-40px, 0, 0);
+  // transform: translate3d(-40px, 0, 0);
 }
 
-.effect-target {
-  -webkit-transform: translate3d(0, 40px, 0);
-  transform: translate3d(0, 40px, 0);
-}
+// .effect-target {
+//   -webkit-transform: translate3d(0, 40px, 0);
+//   transform: translate3d(0, 40px, 0);
+// }
 
 .effect-target {
   -webkit-transition: -webkit-transform 0.35s;
@@ -135,6 +135,7 @@
 .effect-move:hover .effect-image {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
+  transform: scale(1.1);
 }
 
 .effect-move:hover .effect-text,
