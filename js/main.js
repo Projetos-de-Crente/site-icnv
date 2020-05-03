@@ -1,6 +1,6 @@
 function ebd() {
   Swal.fire({
-    title: "<h4><strong>Informativo Escola Bíblica<strong></h4>",
+    title: "<h4><strong>INFORMATIVO ESCOLA BÍBLICA</strong></h4>",
     background: "#cecece",
     confirmButtonColor: "#3f5eac",
     confirmButtonText: "Entendi",
@@ -16,7 +16,7 @@ function ebd() {
 
 function igp() {
   Swal.fire({
-    title: "<h4><strong>Informativo Igreja de Gente Pequena<strong></h4>",
+    title: "<h4><strong>INFORMATIVO IGREJA DE GENTE PEQUENA<strong></h4>",
     background: "#cecece",
     confirmButtonColor: "#3f5eac",
     confirmButtonText: "Entendi",
