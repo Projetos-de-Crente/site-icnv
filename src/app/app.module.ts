@@ -8,9 +8,11 @@ import { FormsModule } from "@angular/forms";
 import { ROUTES } from "./app.routes";
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { HeroComponent } from './hero/hero.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, HeroComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot(ROUTES),
