@@ -19,6 +19,8 @@ import { NovidadesComponent } from "./pages/novidades/novidades.component";
 import { MinisteriosComponent } from "./pages/ministerios/ministerios.component";
 import { MensagensComponent } from "./pages/mensagens/mensagens.component";
 import { NewsCardComponent } from "./fragments/news-card/news-card.component";
+import { AgendaFragmentComponent } from "./fragments/agenda/agenda-fragment.component";
+import { MinisteriosFragmentComponent } from './fragments/ministerios-fragment/ministerios-fragment.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { NewsCardComponent } from "./fragments/news-card/news-card.component";
     MinisteriosComponent,
     MensagensComponent,
     NewsCardComponent,
+    AgendaFragmentComponent,
+    MinisteriosFragmentComponent,
   ],
   imports: [
     BrowserModule,
