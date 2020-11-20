@@ -7,13 +7,12 @@ import { IHeader } from "./header.interface";
   styleUrls: ["./header.component.scss"],
 })
 export class HeaderComponent implements OnInit {
-  public headerRoutes: IHeader[];
+  @Input() headerRoutes: IHeader[];
   @Input() img: string;
 
   constructor() {}
 
   ngOnInit() {
-    this.getHeaderRoutes();
     this.menuToggler();
   }
 
@@ -45,14 +44,5 @@ export class HeaderComponent implements OnInit {
     ) as HTMLElement;
     navbarMenu.classList.toggle("open");
     navbarToggler.classList.toggle("open-navbar-toggler");
-  }
-
-  getHeaderRoutes() {
-    this.headerRoutes = [
-      {
-        name: "Início",
-        route: "/home",
-      },
-    ];
   }
 }
