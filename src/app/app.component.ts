@@ -28,12 +28,16 @@ export class AppComponent implements OnInit {
           route: "/sobre",
         },
         {
-          name: "Novidades",
-          route: "/novidades",
-        },
-        {
           name: "Agenda",
           route: "/agenda",
+        },
+        {
+          name: "Contato",
+          route: "/contato",
+        },
+        {
+          name: "Novidades",
+          route: "/novidades",
         },
         {
           name: "Ministérios",

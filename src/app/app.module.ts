@@ -10,9 +10,10 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { HeroComponent } from './hero/hero.component';
+import { WelcomeComponent } from './welcome/welcome.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, HeroComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, HeroComponent, WelcomeComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot(ROUTES),
