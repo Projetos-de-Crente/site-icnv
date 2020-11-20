@@ -12,8 +12,4 @@ export class HeroComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
-
-  get imgPath() {
-    return `background-image: url(${this.img})`;
-  }
 }

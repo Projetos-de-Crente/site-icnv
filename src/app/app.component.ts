@@ -1,6 +1,7 @@
 import { Component, OnInit } from "@angular/core";
 import { IHeader } from "./header/header.interface";
-import { IHero } from "./hero/hero.interface";
+
+export const GOOGLE_DRIVE_URL = "https://drive.google.com/thumbnail?id=";
 
 @Component({
   selector: "app-root",
@@ -9,16 +10,14 @@ import { IHero } from "./hero/hero.interface";
 })
 export class AppComponent implements OnInit {
   public headerContent: IHeader;
-  public heroContent: IHero;
 
   ngOnInit() {
     this.getNavContent();
-    this.getHeroContent();
   }
 
   getNavContent() {
     this.headerContent = {
-      logo: "",
+      logo: `${GOOGLE_DRIVE_URL}129-Z6Ss7Geb-Z7by0JAy3ZhGgHyVnT85`,
       routes: [
         {
           name: "Início",
@@ -45,13 +44,6 @@ export class AppComponent implements OnInit {
           route: "/mensagens",
         },
       ],
-    };
-  }
-
-  getHeroContent() {
-    this.heroContent = {
-      img: "",
-      title: "Igreja Cristã Nova Vida de Magé",
     };
   }
 }

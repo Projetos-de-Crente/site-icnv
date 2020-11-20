@@ -1,19 +1,19 @@
 @import "../../scss/includes.scss";
 
 .hero {
-  position: relative;
-  height: 60vh;
-  background-size: cover;
+  background-color: antiquewhite;
   background-repeat: no-repeat;
-  font-size: 0.5rem;
   background-position: center;
+  background-size: cover;
+  position: relative;
+  font-size: 0.5rem;
 
   @include small-and-up {
     height: 60vh;
   }
 
   @include large-and-up {
-    height: 99vh;
+    height: 20vh;
   }
 }
 
@@ -32,7 +32,6 @@
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 2rem;
 
   @include large-and-up {
     font-size: 3rem;

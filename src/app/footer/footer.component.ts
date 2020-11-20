@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { GOOGLE_DRIVE_URL } from "../app.component";
 import { IFooter } from "./footer.interface";
 
 @Component({
@@ -13,9 +14,9 @@ export class FooterComponent implements OnInit {
 
   get footerContent(): IFooter {
     return {
-      logo: "",
-      IGlogo: "",
-      FBlogo: "",
+      logo: `${GOOGLE_DRIVE_URL}1h7XOnAPJy8cPlwYrRBe1y2gBGxLvHwbG`,
+      IGlogo: `${GOOGLE_DRIVE_URL}1j0eoWgN1yfVaggo3f35og7U8jOrRsY5D`,
+      FBlogo: `${GOOGLE_DRIVE_URL}1lqbMGx_RWbwakCpyyjxlhZSWkVu6T2pO`,
       copyright: "Copyright 2020. Todos os direitos reservados.",
       footerDetalhe: [
         {
