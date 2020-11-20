@@ -12,12 +12,13 @@ import { FooterComponent } from "./shared/footer/footer.component";
 import { HeroComponent } from "./shared/hero/hero.component";
 import { HomeComponent } from "./pages/home/home.component";
 import { WelcomeComponent } from "./fragments/welcome/welcome.component";
-import { SobreComponent } from './pages/sobre/sobre.component';
-import { AgendaComponent } from './pages/agenda/agenda.component';
-import { ContatoComponent } from './pages/contato/contato.component';
-import { NovidadesComponent } from './pages/novidades/novidades.component';
-import { MinisteriosComponent } from './pages/ministerios/ministerios.component';
-import { MensagensComponent } from './pages/mensagens/mensagens.component';
+import { SobreComponent } from "./pages/sobre/sobre.component";
+import { AgendaComponent } from "./pages/agenda/agenda.component";
+import { ContatoComponent } from "./pages/contato/contato.component";
+import { NovidadesComponent } from "./pages/novidades/novidades.component";
+import { MinisteriosComponent } from "./pages/ministerios/ministerios.component";
+import { MensagensComponent } from "./pages/mensagens/mensagens.component";
+import { NewsCardComponent } from "./fragments/news-card/news-card.component";
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { MensagensComponent } from './pages/mensagens/mensagens.component';
     NovidadesComponent,
     MinisteriosComponent,
     MensagensComponent,
+    NewsCardComponent,
   ],
   imports: [
     BrowserModule,
