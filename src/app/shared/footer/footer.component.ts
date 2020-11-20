@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { GOOGLE_DRIVE_URL } from "../app.component";
+import { GOOGLE_DRIVE_URL } from "src/app/app.component";
 import { IFooter } from "./footer.interface";
 
 @Component({

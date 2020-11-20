@@ -6,14 +6,34 @@ import { AppComponent } from "./app.component";
 import { RouterModule } from "@angular/router";
 import { FormsModule } from "@angular/forms";
 import { ROUTES } from "./app.routes";
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { HomeComponent } from './home/home.component';
-import { HeroComponent } from './hero/hero.component';
-import { WelcomeComponent } from './welcome/welcome.component';
+
+import { HeaderComponent } from "./shared/header/header.component";
+import { FooterComponent } from "./shared/footer/footer.component";
+import { HeroComponent } from "./shared/hero/hero.component";
+import { HomeComponent } from "./pages/home/home.component";
+import { WelcomeComponent } from "./fragments/welcome/welcome.component";
+import { SobreComponent } from './pages/sobre/sobre.component';
+import { AgendaComponent } from './pages/agenda/agenda.component';
+import { ContatoComponent } from './pages/contato/contato.component';
+import { NovidadesComponent } from './pages/novidades/novidades.component';
+import { MinisteriosComponent } from './pages/ministerios/ministerios.component';
+import { MensagensComponent } from './pages/mensagens/mensagens.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, HomeComponent, HeroComponent, WelcomeComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    FooterComponent,
+    HomeComponent,
+    HeroComponent,
+    WelcomeComponent,
+    SobreComponent,
+    AgendaComponent,
+    ContatoComponent,
+    NovidadesComponent,
+    MinisteriosComponent,
+    MensagensComponent,
+  ],
   imports: [
     BrowserModule,
     RouterModule.forRoot(ROUTES),

@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { IHeader } from "./header/header.interface";
+import { IHeader } from './shared/header/header.interface';
 
 export const GOOGLE_DRIVE_URL = "https://drive.google.com/thumbnail?id=";
 

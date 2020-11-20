@@ -1,6 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { GOOGLE_DRIVE_URL } from "../app.component";
-import { IHero } from "../hero/hero.interface";
+import { IHero } from "src/app/shared/hero/hero.interface";
 
 @Component({
   selector: "app-home",
@@ -18,7 +17,6 @@ export class HomeComponent implements OnInit {
 
   getHeroContent() {
     this.heroContent = {
-      // img: `${GOOGLE_DRIVE_URL}1jaN-P5K1YvsqOjhDtKfQdJmc2yb_zpHy`,
       title: "Igreja Cristã Nova Vida de Magé",
     };
   }
