@@ -1,0 +1,11 @@
+<nav class="navbar">
+    <a routerLink="/home"><img [src]="img" class="internal-navbar-image"></a>
+    <ul>
+        <li *ngFor="let item of headerRoutes" routerLinkActive="text-bold">
+            <a (click)="closeMenuMobile()" [routerLink]="item.route">{{ item.name }}</a>
+        </li>
+    </ul>
+    <button class="navbar-toggler">
+        <span></span>
+    </button>
+</nav>

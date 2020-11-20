@@ -6,5 +6,9 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./app.component.scss"],
 })
 export class AppComponent implements OnInit {
-  ngOnInit() {}
+  public img: string;
+
+  ngOnInit() {
+    this.img = "src/assets/img/casinhas_preto.png";
+  }
 }

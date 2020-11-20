@@ -1,9 +1,12 @@
 <div class="wrapper">
+  <app-header></app-header>
   <div class="content-wrapper">
     <div class="container">
-      <p>Bem vindo ao site</p>
-      <p class="text-danger">Bem vindo ao site em vermelho</p>
-      <i class="fa fa-book mr-2"></i>Livro
+      <router-outlet>
+      </router-outlet>
     </div>
+  </div>
+  <div class="mt-5">
+    <app-footer></app-footer>
   </div>
 </div>

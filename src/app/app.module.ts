@@ -6,9 +6,11 @@ import { AppComponent } from "./app.component";
 import { RouterModule } from "@angular/router";
 import { FormsModule } from "@angular/forms";
 import { ROUTES } from "./app.routes";
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent],
   imports: [
     BrowserModule,
     RouterModule.forRoot(ROUTES),
