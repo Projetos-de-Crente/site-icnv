@@ -13,9 +13,9 @@ export class FooterComponent implements OnInit {
 
   get footerContent(): IFooter {
     return {
-      logo: "assets/img/logos/icnv_logo.png",
-      IGlogo: "assets/img/icones_sociais/ico_instagram.png",
-      FBlogo: "assets/img/icones_sociais/ico_facebook.png",
+      logo: "",
+      IGlogo: "",
+      FBlogo: "",
       copyright: "Copyright 2020. Todos os direitos reservados.",
       footerDetalhe: [
         {
