@@ -7,13 +7,10 @@
   background-size: cover;
   position: relative;
   font-size: 0.5rem;
-
-  @include small-and-up {
-    height: 60vh;
-  }
+  height: 40vh;
 
   @include large-and-up {
-    height: 20vh;
+    height: 100vh;
   }
 }
 
@@ -29,13 +26,12 @@
   text-transform: uppercase;
   position: absolute;
   width: 90%;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
   @include large-and-up {
     font-size: 3rem;
-    top: 50%;
   }
 
   &.internal {

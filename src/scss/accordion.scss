@@ -1,0 +1,94 @@
+@import "variables";
+@import "mixins";
+
+.accordion {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.accordion h1,
+h2,
+h3,
+h4 {
+  cursor: pointer;
+}
+
+.accordion h1 {
+  padding: 15px 15px;
+  background-color: $color-blue-bg;
+  font-size: 1rem;
+  font-weight: normal;
+  color: $color-white;
+  margin-bottom: 0rem;
+}
+
+.accordion h1:hover {
+  background-color: lighten($color-blue, 1%);
+}
+
+// .accordion h1:first-child {
+//   border-radius: 10px 10px 0 0;
+// }
+
+// .accordion h1:last-of-type {
+//   border-radius: 0 0 10px 10px;
+// }
+
+.accordion h1:not(:last-of-type) {
+  border-bottom: 1px solid $color-white;
+}
+
+.accordion div,
+.accordion p {
+  display: none;
+}
+
+.accordion h2 {
+  padding: 15px 15px;
+  background-color: $color-light-black;
+  font-size: 1rem;
+  color: $color-white;
+  margin-bottom: 0rem;
+
+  // @include large-and-up {
+  //   font-size: 1.2rem;
+  // }
+}
+
+.accordion h2:hover {
+  background-color: lighten($color-light-gray, 1%);
+  color: $color-black;
+}
+
+.accordion h3 {
+  padding: 20px 20px;
+  background-color: $color-blue;
+  font-size: 1rem;
+  color: $color-white;
+  margin-bottom: 0rem;
+}
+
+.accordion h3:hover {
+  background-color: $color-light-blue;
+}
+
+.accordion h4 {
+  padding: 20px 20px;
+  background-color: $color-red;
+  font-size: 1rem;
+  color: $color-white;
+  margin-bottom: 0rem;
+}
+
+.accordion h4:hover {
+  background-color: $color-red-tomato;
+}
+
+.accordion p {
+  padding: 20px 20px;
+  background-color: $color-white;
+  font-size: 1rem;
+  color: $color-black;
+  line-height: 1.3rem;
+  margin-bottom: 0rem;
+}
