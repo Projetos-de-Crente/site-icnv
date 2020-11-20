@@ -9,6 +9,6 @@ export class AppComponent implements OnInit {
   public img: string;
 
   ngOnInit() {
-    this.img = "src/assets/img/casinhas_preto.png";
+    this.img = "assets/img/logos/casinhas_preto.png";
   }
 }

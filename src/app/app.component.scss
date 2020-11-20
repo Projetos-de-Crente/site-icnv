@@ -1,0 +1,12 @@
+@import "../scss/includes.scss";
+
+.footer {
+  padding-top: 2rem;
+  background-color: $color-light-black;
+  color: $color-white;
+
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+}

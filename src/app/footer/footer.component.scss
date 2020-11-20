@@ -1,16 +1,5 @@
 @import "../../scss/includes.scss";
 
-.footer {
-  padding-top: 2rem;
-  background-color: $color-light-black;
-  color: $color-white;
-
-  p {
-    margin-bottom: 1rem;
-    line-height: 1.2;
-  }
-}
-
 .footer-image {
   margin: 2rem 0;
   max-width: 50%;
@@ -53,10 +42,6 @@
   }
 }
 
-.footer-icon {
-  max-width: 100%;
-}
-
 .footer-iconlink {
   display: inline-block;
   width: 32px;
@@ -65,10 +50,12 @@
   transition: opacity 0.4s, transform 0.2s;
   opacity: 0.6;
   transform: scale(1);
+
   &:hover {
     opacity: 1;
     transform: scale(1.1);
   }
+
   &:active {
     transform: scale(1.2);
   }
