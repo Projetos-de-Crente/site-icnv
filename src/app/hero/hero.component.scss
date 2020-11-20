@@ -1,0 +1,45 @@
+@import "../../scss/includes.scss";
+
+.hero {
+  position: relative;
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 0.5rem;
+  background-position: center;
+
+  @include small-and-up {
+    height: 60vh;
+  }
+
+  @include large-and-up {
+    height: 99vh;
+  }
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-title {
+  font-family: $font-montserrat;
+  font-size: 1.8rem;
+  color: $color-white;
+  text-shadow: 1px 1px 2px #656565;
+  text-transform: uppercase;
+  position: absolute;
+  width: 90%;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 2rem;
+
+  @include large-and-up {
+    font-size: 3rem;
+    top: 50%;
+  }
+
+  &.internal {
+    margin-top: 0;
+  }
+}
